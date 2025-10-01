@@ -22,7 +22,7 @@
         {
           "subscriptionType": "object.propertyChange",
           "objectType": "contact",
-          "propertyName": "status",
+          "propertyName": "lifecyclestage",
           "active": true
         }
       ],
