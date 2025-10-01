@@ -23,10 +23,6 @@ app.get("/connect", (req, res) => {
     const scopes = [
         "crm.objects.contacts.read",
         "crm.objects.contacts.write",
-        "crm.objects.companies.read",
-        "crm.objects.companies.write",
-        "crm.objects.emails.read",
-        "crm.objects.emails.write"
         // REMOVE "webhooks" scope — not valid
     ];
 
