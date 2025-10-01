@@ -8,7 +8,7 @@
     "auth": {
       "type": "oauth",
       "redirectUrls": [
-        "http://localhost:3000/hubspot/callback"
+        "https://hubspot-test-theta.vercel.app/hubspot/callback"
       ],
       "requiredScopes": [
         "crm.objects.contacts.read",

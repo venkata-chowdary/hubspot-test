@@ -5,7 +5,7 @@ const PORT = 3000;
 
 const HUBSPOT_CLIENT_ID = "341205a8-439a-4930-8c42-d25ff3094e11";
 const HUBSPOT_CLIENT_SECRET = "c5d4fe4d-be59-4d7d-b0d5-2ce553696dec";
-const HUBSPOT_REDIRECT_URI = "http://localhost:3000/hubspot/callback";
+const HUBSPOT_REDIRECT_URI = "https://hubspot-test-theta.vercel.app/hubspot/callback";
 
 // Middleware to parse JSON
 app.use(express.json());

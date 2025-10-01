@@ -3,7 +3,7 @@
   "type": "webhooks",
   "config": {
     "settings": {
-      "targetUrl": "http://localhost:3000/hubspot/webhook",
+      "targetUrl": "https://hubspot-test-theta.vercel.app/hubspot/webhook",
       "maxConcurrentRequests": 10
     },
     "subscriptions": {
