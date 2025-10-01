@@ -34,7 +34,7 @@ app.get("/connect", (req, res) => {
         `&scope=${scopes.join("%20")}` +
         `&redirect_uri=${encodeURIComponent(HUBSPOT_REDIRECT_URI)}`;
 
-    return res.redirect(authUrl);
+    return res.send(authUrl);
 });
 
 // =======================
