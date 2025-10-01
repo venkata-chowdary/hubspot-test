@@ -57,7 +57,7 @@ app.get("/hubspot/callback", async (req, res) => {
         // TODO: Save tokenJson in MongoDB linked to your user
         // await User.findByIdAndUpdate(req.user._id, { hubspotToken: tokenJson });
 
-        res.send("HubSpot connected successfully!");
+        res.redirect("https://app.dev.inagent.ai/settings")
     } catch (err) {
         console.error(err);
         res.status(500).send("OAuth callback failed");
