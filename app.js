@@ -10,6 +10,7 @@ const HUBSPOT_REDIRECT_URI = "http://localhost:3000/hubspot/callback";
 // Middleware to parse JSON
 app.use(express.json());
 
+
 // Simple route
 app.get('/', (req, res) => {
     res.send('Hello, World!');
