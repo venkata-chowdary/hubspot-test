@@ -30,6 +30,12 @@
           "objectType": "contact",
           "propertyName": "lifecyclestage",
           "active": true
+        },
+        {
+          "subscriptionType": "object.propertyChange",
+          "objectType": "contact",
+          "propertyName": "hs_lead_status",
+          "active": true
         }
       ],
       "legacyCrmObjects": [
