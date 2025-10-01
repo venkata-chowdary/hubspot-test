@@ -22,6 +22,12 @@
         {
           "subscriptionType": "object.propertyChange",
           "objectType": "contact",
+          "propertyName": "phone",
+          "active": true
+        },
+        {
+          "subscriptionType": "object.propertyChange",
+          "objectType": "contact",
           "propertyName": "lifecyclestage",
           "active": true
         }
