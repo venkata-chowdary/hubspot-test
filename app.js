@@ -1,6 +1,5 @@
 // server.js
 const express = require('express');
-const fetch = require('node-fetch'); // if using Node <18
 const app = express();
 const PORT = 3000;
 
